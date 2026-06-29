@@ -1,0 +1,69 @@
+# Ghostty設定
+
+## テーマ
+theme = TokyoNight
+palette = 8=#8890b3
+
+### 背景
+#background = 282c34
+#background-image = 
+#background-image-fit = cover
+#background-image-position = center
+#background-image-opacity = 0.5
+
+### 背景透明度・ぼかし
+background-opacity = 0.75
+background-blur = true
+
+## フォント
+font-family = Moralerspace Neon HWJPDOC
+font-size = 14
+font-style = Regular
+font-feature = +calt
+font-feature = +liga
+font-thicken = false
+
+
+## カーソル
+cursor-style = block
+cursor-style-blink = false
+
+## マウス
+mouse-hide-while-typing = true
+
+## コマンド
+wait-after-command = true
+
+## ウィンドウ
+title = " "
+window-padding-x = 5
+window-padding-y = 5
+window-padding-balance = true
+window-height = 40
+window-width = 180
+window-save-state = always
+window-colorspace = "display-p3"
+
+
+### MacOS固有
+macos-titlebar-proxy-icon = hidden
+macos-titlebar-style = tabs
+macos-non-native-fullscreen = true
+macos-titlebar-style = transparent
+
+## キーバインド
+keybind = shift+enter=text:\x1b\r
+
+keybind = ctrl+h=goto_split:left
+keybind = ctrl+j=goto_split:down
+keybind = ctrl+k=goto_split:up
+keybind = ctrl+l=goto_split:right
+
+keybind = ctrl+shift+v=new_split:right
+keybind = ctrl+shift+h=new_split:down
+
+keybind = ctrl+plus=increase_font_size:1.5
+keybind = ctrl+minus=decrease_font_size:1.5
+keybind = ctrl+0=reset_font_size
+keybind = ctrl+9=set_font_size:14
+
