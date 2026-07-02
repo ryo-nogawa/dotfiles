@@ -54,9 +54,6 @@ macos-titlebar-style = transparent
 ## キーバインド
 keybind = shift+enter=text:\x1b\r
 
-# Ctrl+Tはタブ複製ではなく新規ウィンドウを開く(AeroSpaceでの空白ウィンドウ対策)
-keybind = ctrl+t=new_window
-
 keybind = ctrl+h=goto_split:left
 keybind = ctrl+j=goto_split:down
 keybind = ctrl+k=goto_split:up
