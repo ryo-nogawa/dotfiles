@@ -23,8 +23,8 @@ unset __conda_setup
 export PATH="/usr/bin:$PATH"
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
-export PATH="/opt/homebrew/opt/openjdk@21/bin:$PATH"
-export JAVA_HOME="/opt/homebrew/opt/openjdk@21/libexec/openjdk.jdk/Contents/Home"
+export PATH="/opt/homebrew/opt/openjdk@25/bin:$PATH"
+export JAVA_HOME="/opt/homebrew/opt/openjdk@25/libexec/openjdk.jdk/Contents/Home"
 export PATH="$JAVA_HOME/bin:$PATH"
 
 [[ "$TERM_PROGRAM" == "kiro" ]] && . "$(kiro --locate-shell-integration-path zsh)"
