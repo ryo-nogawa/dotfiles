@@ -22,6 +22,9 @@ font-style = Regular
 font-feature = +calt
 font-feature = +liga
 font-thicken = false
+# Moralerspaceは×(U+00D7)/√(U+221A)/±(U+00B1)のグリフ幅が他の半角文字の2倍(全角幅)になっているバグを持つため
+# セル幅とグリフ幅がずれて表示が崩れる。幅が正常なMenloに差し替えて回避する
+font-codepoint-map = U+00D7,U+221A,U+00B1=Menlo
 
 
 ## カーソル
